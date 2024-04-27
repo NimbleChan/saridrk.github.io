@@ -8,6 +8,11 @@ body {
   background: url(./GJNoKFlXgAAann1_1.jpg) no-repeat;
   background-size: cover;
   font-family: cursive;
+  color: #fff;
+}
+
+a {
+  color: #fff;
 }
 
 .content {
@@ -25,10 +30,8 @@ video {
 
 .link {
   font-size: 5rem;
-  color: #fff;
 }
 
 .small-link {
   font-size: 1.5rem;
-  color: #fff;
 }
