@@ -5,7 +5,7 @@
 body {
   height: 100vh;
   margin: 0;
-  background: url(./GJNoKFlXgAAann1_1.jpg) no-repeat;
+  background: #000;
   background-size: cover;
   font-family: cursive;
   color: #fff;
@@ -60,8 +60,33 @@ video {
 .dialog-close {
   position: absolute;
   right: 0;
-  top: 0;
+  top: -30px;
   border: none;
   background: none;
-  cursor: progress;
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.dialog-content > div:first-of-type {
+  display: flex;
+  align-items: center;
+}
+
+.dialog-content img, .dialog-content a {
+  height: 100%;
+  width: 100%;
+}
+
+button, input {
+  font: inherit;
+  font-size: 1.5rem;
+}
+
+button[type] {
+  position: relative;
+  left: 40%;
+}
+
+.hidden {
+  display: none;
 }
